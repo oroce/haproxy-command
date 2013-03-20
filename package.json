@@ -1,0 +1,25 @@
+{
+  "name": "haproxy-command",
+  "version": "0.0.0",
+  "description": "control haproxy via socket connection",
+  "main": "lib/socket.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oroce/haproxy-command.git"
+  },
+  "keywords": [
+    "haproxy",
+    "socket"
+  ],
+  "author": "oroce",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "ec6e9b99fbe7df126e862ede8db33f7e588b3616",
+  "devDependencies": {
+    "mocha": "~1.8.2",
+    "should": "~1.2.2"
+  }
+}
